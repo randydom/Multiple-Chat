@@ -98,7 +98,7 @@ namespace MetaSocket {
 
 	bool Socket::errorCheck(const int& result) const {
 		if (result == SOCKET_ERROR) {
-			std::cout << "[Socket Class] " << "SOCKET_ERROR" << std::endl;
+			//std::cout << "[Socket Class] " << "SOCKET_ERROR" << std::endl;
 			return true;
 		}
 		return false;

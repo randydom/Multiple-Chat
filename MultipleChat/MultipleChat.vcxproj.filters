@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="헤더 파일\MetaLibrary">
-      <UniqueIdentifier>{26b6b7d6-d4fc-431d-97c0-edf01c8e5deb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\MetaLibrary">
       <UniqueIdentifier>{f1f4b029-a194-4635-9caa-9b03c727acda}</UniqueIdentifier>
     </Filter>
@@ -27,6 +24,9 @@
     </Filter>
     <Filter Include="소스 파일\MultipleChat">
       <UniqueIdentifier>{a4591e70-a9d9-4816-9f2b-4a78885e34e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\MetaLibrary">
+      <UniqueIdentifier>{26b6b7d6-d4fc-431d-97c0-edf01c8e5deb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
