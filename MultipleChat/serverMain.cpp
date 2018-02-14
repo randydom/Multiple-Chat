@@ -4,7 +4,7 @@
 
 using namespace MultipleChat;
 int main() {
-	Server::getInstance()->run();
+	Server::getInstance()->run(8888);
 
 	return 0;
 }

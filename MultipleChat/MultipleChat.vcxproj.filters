@@ -39,9 +39,6 @@
     <ClInclude Include="Singleton.hpp">
       <Filter>헤더 파일\Util</Filter>
     </ClInclude>
-    <ClInclude Include="ClientManager.hpp">
-      <Filter>헤더 파일\MultipleChat</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MetaSocket.cpp">
@@ -51,9 +48,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Server.cpp">
-      <Filter>소스 파일\MultipleChat</Filter>
-    </ClCompile>
-    <ClCompile Include="ClientManager.cpp">
       <Filter>소스 파일\MultipleChat</Filter>
     </ClCompile>
   </ItemGroup>
