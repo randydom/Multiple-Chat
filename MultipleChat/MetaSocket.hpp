@@ -27,8 +27,6 @@ namespace MetaSocket {
 		SOCKET      m_socket;
 		SOCKADDR_IN m_sockAddr;
 
-		bool        m_isOpen;
-
 	private:
 		Socket();
 	protected:

@@ -69,8 +69,7 @@ namespace MetaSocket {
 	}
 
 	void Socket::close() {
-		if (this->m_isOpen) ::closesocket(m_socket);
-		this->m_isOpen = false;
+		::closesocket(m_socket);
 	}
 
 	bool Socket::operator==(const Socket& T) const {
