@@ -15,7 +15,6 @@ namespace MultipleChat {
 		std::vector<MetaSocket::TCPSocket*> m_clntSockArr;
 
 		std::mutex m_mtx;
-		std::mutex m_sendMtx;
 
 	public:
 		static void communicateFunc(int clntNum);

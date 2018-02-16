@@ -40,7 +40,7 @@ namespace MultipleChat {
 			if (data == nullptr || recvLen != len) break;
 
 
-			Server::getInstance()->m_sendMtx.lock();
+			Server::getInstance()->m_mtx.lock();
 
 			size_t clntCnt = Server::getInstance()->m_clntSockArr.size();
 			for (size_t i = 0; i < clntCnt; i++)
@@ -50,7 +50,7 @@ namespace MultipleChat {
 					Server::getInstance()->m_clntSockArr[i]->send(data, len);
 				}
 
-			Server::getInstance()->m_sendMtx.unlock();
+			Server::getInstance()->m_mtx.unlock();
 
 			delete headerData;
 			delete data;

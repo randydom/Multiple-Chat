@@ -67,8 +67,9 @@ int main() {
 	std::cout << "name : ";
 	std::cin >> name;
 
-	TCPClient clnt(new TCPSocket("127.0.0.1", 8888));
+	TCPClient clnt(new TCPSocket("220.118.32.74", 8864));
 	clnt.connect();
+
 
 	auto sock = clnt.getSocket();
 
@@ -98,13 +99,6 @@ int main() {
 		vec.push_back((byte)str.length() >> 32);
 		for (size_t i = 0; i < str.length(); i++)
 			vec.push_back(str[i]);
-
-
-		//std::cout << "Data : ";
-		//for (auto iter : vec)
-		//	printf("%02X ", iter);
-		//std::cout << std::endl;
-
 
 		sock->send(vec);
 
